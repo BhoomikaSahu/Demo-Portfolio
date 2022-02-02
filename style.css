@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(25, 27, 27);
+    color: rgb(255, 255, 255);
+    scroll-behavior: smooth;
+}
+header{
+    padding: 50px;
+    background-color: rgb(111, 212, 252);
+    text-align: center;
+}
+
+header > a{
+    text-decoration: none;
+    background: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(53, 58, 58);
+    font-size: 30px;
+    margin: 20px 20px;
+}
+#sec1{
+    height: 710px;
+}
+
+.aboutme{
+    width: 600px;
+    height: 500px;
+    font-size: 30px;
+    margin: 40px;
+    padding: 50px;
+}
+.aboutme > p{
+    margin-top: 30px;
+}
+section > img{
+    display: block;
+    position: absolute;
+    top: 140px;
+    right: 50px;
+    border: 8px solid rgb(111, 212, 252);
+    width: 600px;
+    height: 600px;
+    margin: 40px 40px 40px 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.heading{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(206, 212, 211);
+    margin: 20px;
+}
+.box{
+    border: 40px solid rgb(111, 212, 252);
+    border-radius: 10px;
+    height: 250px;
+    margin: 40px;
+}
+
+.image{
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.discription{
+    padding: 50px;
+    font-size: 30px;
+}
+
+form{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 40px;
+    background: rgb(111, 212, 252);
+    border-radius: 10px;
+}
+
+form > input{
+    display: block;
+    width: 400px;
+    padding: 15px;
+    font-size: 20px;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+textarea{
+    width: 400px;
+    height: 125px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+footer{
+    height: 70px;
+    background: rgb(111, 212, 252);
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
